@@ -1,50 +1,43 @@
-# ResuMatch: Automated Resume Screening System
+# ResuMe
 
 ## Overview
 
-ResuMatch is an advanced automated resume screening system that leverages artificial intelligence and natural language processing to efficiently match resumes with job descriptions. The project aims to streamline the recruitment process by providing accurate and objective resume evaluation.
+**ResuMe** is an intelligent resume screening system developed during the **Eleevo Internship (NLP Track)**.  
+It leverages **Artificial Intelligence (AI)** and **Natural Language Processing (NLP)** to automatically analyze resumes, extract important information, and match them with job descriptions.  
+The project aims to simplify recruitment and provide fast, fair, and accurate candidate evaluations.
 
 ## Key Features
 
-- **Automated Resume Parsing**: Extracts key information from resumes using advanced NLP techniques
-- **Semantic Matching**: Utilizes cosine similarity to compare resumes with job descriptions
-- **Multilayer Processing**:
+- **AI Resume Parsing**: Automatically extracts key details (skills, education, experience) using NLP.
+- **Smart Matching**: Uses cosine similarity to compare resumes with job descriptions.
+- **Processing Pipeline**:
   - Text preprocessing
-  - Resume segmentation
-  - Entity extraction
+  - Entity extraction (NER)
   - Semantic similarity scoring
-- **User-Friendly Interface**: React-based frontend for easy resume and job description uploads
-- **Robust Backend**: FastAPI-powered processing engine
+- **Interactive Interface**: React-based frontend for uploading resumes and viewing results.
+- **Fast Backend**: Powered by FastAPI for high-performance processing.
 
 ## Technologies Used
 
 - **Frontend**: React
 - **Backend**: FastAPI
-- **NLP Library**: spaCy
-- **Machine Learning**:
-  - Sentence Transformers
-  - Named Entity Recognition (NER)
-- **Text Processing**:
-  - Cosine Similarity
-  - TF-IDF Vectorization
+- **NLP Tools**: spaCy, Sentence Transformers
+- **Machine Learning**: TF-IDF, Cosine Similarity, Named Entity Recognition (NER)
+- **Languages**: Python, JavaScript
 
 ## Project Highlights
 
-- Processes a dataset of 2,000 unique skills
-- Employs rule-based entity recognition
-- Generates compatibility scores for resumes
-- Achieved 0.6991 correlation with human evaluation
+- Extracts and processes over 2,000 unique skills.
+- Generates ranked compatibility scores for resumes.
+- Achieved high accuracy and semantic understanding.
+- Developed as part of the **Eleevo Internship Program**.
 
 ## Installation
 
 ### Prerequisites
 
-- **Frontend**:
-  - Node.js (with Yarn)
-- **Backend**:
-  - Python 3.7+
-  - FastAPI
-  - Uvicorn
+- **Python 3.8+**
+- **Node.js (with Yarn)**
 
 ### Step 1: Clone the Repository
 
@@ -127,37 +120,11 @@ cd ResuMatch
 4. View Results:
    - The system will process the resumes and job description, returning a ranked list of resumes based on their compatibility scores.
 
-## Limitations
-
-- Limited entity recognition for complex resume formats
-- Dependence on predefined rules
-- Language limitations (primarily English)
-
-## Future Enhancements
-
-- Domain-specific entity recognition
-- Advanced NLP models for contextual understanding
-- Semantic search capabilities
-- Dynamic scoring mechanisms
-  
-## Screenshots:
-<details>
-  <summary>Click to view screenshots</summary>
-  
-  ![Screenshot 1](https://github.com/user-attachments/assets/97958152-3e0a-4c92-aca3-442e3bacb4a2)
-  
-  ![Screenshot 2](https://github.com/user-attachments/assets/4212c74e-30ab-4163-9fa6-d2809f08860d)
 
 </details>
 
-
-
-## Contributors
-
-- Rajesh Adhikari
-- Subash Lamichhane
-- Sujan Koirala
-
 ## Acknowledgments
 
-Special thanks to Samsung Innovation Campus (SIC) for the opportunity to develop this project.
+This project was developed as part of the Eleevo Internship (NLP Track), focusing on practical AI applications in recruitment automation.
+
+
